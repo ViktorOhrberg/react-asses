@@ -53,7 +53,7 @@ const News = (props) => {
     <div className="News">
       <h2 onClick={titleClicked}>{props.title}</h2>
       <p>{props.date} <br />
-        <strong> Views: {counter}</strong></p>
+        <strong> Number of views: {counter}</strong></p>
       <div className="NewsChildren">
         {childrenElement}
       </div>
